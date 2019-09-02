@@ -478,7 +478,7 @@ notify_package_updates_available() {
 
 install_bitwarden() {
     # Install Bitwarden through NPM - this is the preferred installation method since NPM makes it easy to update the package
-    apt-get install -y nodejs npm
+    apt-get install -y nodejs
     npm install -g @bitwarden/cli
 }
 
